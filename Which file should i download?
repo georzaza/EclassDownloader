@@ -1,0 +1,20 @@
+
+EclassDownloader.zip :
+    
+    -contains  raw javascript code that can be executed on Developer Tools.
+    -This was the first version.
+    
+    
+EclassDownloadExtension.zip:
+
+    -After being edited, the above code was inserted in the extension Batch Link Downloader
+     -This file contains this extension.
+     -The original extension's code was slightly modified to satisfy the needs of the Eclass Downloader.
+     -Improved the algorithm. 
+
+
+Notes: 
+
+    -Both versions use synchronous calls to crawl the website for the desired files.
+     This needs to be fixed as synchronous calls are not only deprecated but also perform very bad.
+ 
