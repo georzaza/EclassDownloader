@@ -3,10 +3,10 @@
 EclassDownloader is a browser extension.
 It is a multiple file downloader designed specifically for downloading files present on eclass.uth.gr
 
-The main functionality is this of the content.js script. 
+The main functionality is that of the source code: content.js
 
 It uses the source code of the Batch Link Downloader for the "appearance" of the extension, 
-but it only provides functionality for the description at line 4 of this document.
+but it only provides functionality for the description at line 1 of this document.
 
 If you want to download and use this, you should already be a member of eclass.uth.gr
 
