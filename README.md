@@ -32,6 +32,7 @@ he wants to download using various methods.
 
 ------Instructions on how to manually add this extension on your browser by downloading it from github:
   
+OPERA & CHROME
   - Download the files and save them to a folder, say "example"
   - Go to address about:extensions on your browser.
   - On most browsers, on your right and top will be an option "Developer Mode". Enable it.
@@ -39,4 +40,6 @@ he wants to download using various methods.
   - Select the folder "example".
   - Happy usage!
 
-
+MOZILLA
+  - You just have to go to settings --> addons, click the small button with the settings icon located 
+     at the middle-top of the page and then choose "Add from file". 
