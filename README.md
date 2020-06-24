@@ -7,8 +7,7 @@ You can find this extension on https://chrome.google.com/webstore/detail/eclass-
 This is a multiple file downloader designed specifically for downloading files on eclass.uth.gr
 
 It uses the source code of the Batch Link Downloader for the "appearance" of the extension, 
-but it only provides functionality for the description at line 1 of this document.
-
+but it only provides functionality for the description above.
 If you want to download and use this, you should already be a member of eclass.uth.gr
 
 Instructions on how to manually add this extension on your browser by downloading it from github:
