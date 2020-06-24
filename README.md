@@ -1,16 +1,37 @@
 # EclassDownloader
+----- DESCRIPTION
 
 EclassDownloader is a browser extension.
-You can find this extension on https://chrome.google.com/webstore/detail/eclass-downloader/lkmjedjbimbmidehpdeeiijkkkholalc
-  from where you can download and install it.
+You can find this extension on 
+    https://chrome.google.com/webstore/detail/eclass-downloader/lkmjedjbimbmidehpdeeiijkkkholalc
+from where you can download and install it. This is a multiple file downloader designed specifically
+for downloading files on eclass.uth.gr. So if you want to use this, you should already be a member of eclass.uth.gr
+
+
+----- FURTHER DESCRIPTION
+
+Eclass.uth.gr is a website designed for the University of Thessaly.
+On that site teachers upload files for the students, and students download these files.
+  written on 24/6/2020: 
+        For a long time now, eclass.uth.gr does not provide functionality for downloading 
+        whole folders with files. So, i wrote this extension, which finds all the files 
+        under a folder, and lets the user select which of these files they want to download.
+
+
+
+-----CODE-DESCRIPTION
+
+It uses the source code of the Batch Link Downloader for the "appearance" of the extension.
+First a "mini" web crawler algorithm is implemented, which will fetch every link under a folder.
+This "fetch" happens using xmlHTTPrequests. The results are then filtered and the user is presented 
+with (only) the files present under the current folder. He can then multiple select the files that 
+he wants to download using various methods.
+
+
+
+
+------Instructions on how to manually add this extension on your browser by downloading it from github:
   
-This is a multiple file downloader designed specifically for downloading files on eclass.uth.gr
-
-It uses the source code of the Batch Link Downloader for the "appearance" of the extension, 
-but it only provides functionality for the description above.
-If you want to download and use this, you should already be a member of eclass.uth.gr
-
-Instructions on how to manually add this extension on your browser by downloading it from github:
   - Download the files and save them to a folder, say "example"
   - Go to address about:extensions on your browser.
   - On most browsers, on your right and top will be an option "Developer Mode". Enable it.
