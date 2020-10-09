@@ -1,33 +1,40 @@
 # EclassDownloader
 ----- DESCRIPTION
 
-EclassDownloader is a browser extension.
+It is a multiple file downloader designed specifically for downloading files from eclass.uth.gr.
+If you want to use this, you should already be a member of eclass.uth.gr
+
+----- COMPATIBLE WITH
+EclassDownloader is a browser extension that works ONLY on Chrome and Opera.
+If you want to add it on Mozilla Firefox then don't use the chrome extension store.
+Download from here and add manually. (See the end of the document)
+
+----- DOWNLOAD
+This github version will not be updated in the future.
 You can find this extension on 
     https://chrome.google.com/webstore/detail/eclass-downloader/lkmjedjbimbmidehpdeeiijkkkholalc
-from where you can download and install it. This is a multiple file downloader designed specifically
-for downloading files on eclass.uth.gr. So if you want to use this, you should already be a member of eclass.uth.gr
 
 
 ----- FURTHER DESCRIPTION
 
 Eclass.uth.gr is a website designed for the University of Thessaly.
 On that site teachers upload files for the students, and students download these files.
-  written on 24/6/2020: 
+  on 24/6/2020: 
         For a long time now, eclass.uth.gr does not provide functionality for downloading 
         whole folders with files. So, i wrote this extension, which finds all the files 
         under a folder, and lets the user select which of these files they want to download.
-
+  on 1/9/2020:
+        Eclass.uth.gr finally started the support of downloading whole folders so this extension
+        might not be as useful now.
 
 
 -----CODE-DESCRIPTION
 
-It uses the source code of the Batch Link Downloader for the "appearance" of the extension.
+It uses the source code of the Batch Link Downloader as the GUI of the extension.
 First a "mini" web crawler algorithm is implemented, which will fetch every link under a folder.
 This "fetch" happens using xmlHTTPrequests. The results are then filtered and the user is presented 
-with (only) the files present under the current folder. He can then multiple select the files that 
-he wants to download using various methods.
-
-
+with (only) the files present under the current folder (Batch Link Downloader was showing multiple links
+including websites, so this is practically a better version of BTD for eclass only.) 
 
 
 ------Instructions on how to manually add this extension on your browser by downloading it from github:
