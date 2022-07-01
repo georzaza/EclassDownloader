@@ -1,3 +1,5 @@
+## This is my first 'serious' web project !
+
 # EclassDownloader
 ----- DESCRIPTION
 
